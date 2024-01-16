@@ -2,7 +2,7 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://github.com/HARSHALKUMRE/Main-Branching/raw/master/cotton-leaf-disease-dataset.zip
+  source_url: https://github.com/HARSHALKUMRE/Main-Branching/raw/master/cotton-leaf-disease-dataset.zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
 
