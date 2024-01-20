@@ -17,7 +17,7 @@ class ClientApp:
         self.classifier = PredictionPipeline(self.filename)
 
 
-@app.route("/", methods=['GET'])
+@app.route("/", methods=['GET','POST'])
 @cross_origin()
 def home():
     return render_template("index.html")
